@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ChildParent';
+
+
+  readData:any;
+
+  parentFunction(data:any){
+    console.log(data);
+    this.readData=data;
+  }
 }
